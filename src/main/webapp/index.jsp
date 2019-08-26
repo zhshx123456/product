@@ -37,17 +37,17 @@
 								产品 <span class="caret"></span>
 							</a>
 							<ul class="dropdown-menu header-product">
-								<li><a href="product.html">数字化资产</a></li>
+								<li><a href="product.jsp">数字化资产</a></li>
 								<li><a href="#">数字化营销</a></li>
 								<li><a href="#">智慧协同</a></li>
 								<li><a href="#">利润中心</a></li>
 							</ul>
 						</li>
 						<li role="presentation">
-							<a class="header-link link-show2" href="#">关于我们</a>
+							<a class="header-link link-show2" href="about.jsp">关于我们</a>
 						</li>
 						<li role="presentation">
-							<a class="header-link link-show3" href="#">服务中心</a>
+							<a class="header-link link-show3" href="about.jsp">服务中心</a>
 						</li>
 					</ul>
 				</div>
@@ -408,13 +408,13 @@
 								<input type="email" class="form-control" id="exampleInputEmail1" placeholder="您的邮箱">
 							</div>
 							<div class="form-group">
-								<input type="text" class="form-control" id="exampleInputPassword1" placeholder="您的姓名">
+								<input type="text" class="form-control" id="exampleInputName" placeholder="您的姓名">
 							</div>
 							<div class="form-group">
-								<input type="text" class="form-control" id="exampleInputPassword1" placeholder="您的企业名称">
+								<input type="text" class="form-control" id="exampleInputPName" placeholder="您的企业名称">
 							</div>
 							<div class="form-group">
-								<input type="tel" class="form-control" id="exampleInputPassword1" placeholder="您的电话">
+								<input type="tel" class="form-control" id="exampleInputPhone" placeholder="您的电话">
 							</div>
 							<div class="form-group">
 								<select class="form-control">

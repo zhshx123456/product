@@ -5,9 +5,9 @@ $(document).ready(function() {
 	});
 	$('button').click(function(){
 		var text = $(this).text();
-		debugger;
+		//debugger;
 		if(text.indexOf('了解') >= 0){
-			location.href = 'product.html';
+			location.href = 'product.jsp';
 		}else if(text.indexOf('免费') >= 0){
 			$('#sqModal').modal('show');
 		}
