@@ -1,0 +1,2039 @@
+body {
+	min-width: 375px !important;
+}
+
+/*header部分  begin*/
+.header-div {
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	min-width: 375px;
+	padding: 15px 0;
+	color: white;
+	background: rgba(255, 255, 255, 0.15);
+}
+
+.header-div .logo {
+	width: 20%;
+	min-width: 150px;
+	float: left;
+	margin-top: 5px;
+}
+
+.header-div .nav-list {
+	float: right;
+}
+
+a.header-link {
+	font-family: MicrosoftYaHei-Bold;
+	font-weight: bold;
+	color: rgba(255, 255, 255, 1);
+	line-height: 21px;
+	background: transparent !important;
+	padding-bottom: 2px !important;
+}
+
+a.header-link:hover,
+a.header-link:focus {}
+
+.header-product>li {
+	margin: 5px 0;
+}
+
+.header-product>li>a {
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	font-weight: 500;
+	color: rgba(61, 52, 50, 1);
+	line-height: 20px;
+}
+
+.header-div .trial {
+	width: 145px;
+	height: 42px;
+	background: rgba(255, 255, 255, 1);
+	box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.38);
+	border: 0;
+	border-radius: 21px;
+	float: right;
+	margin-left: 10px;
+
+	font-size: 16px;
+	font-family: MicrosoftYaHei;
+	color: rgba(41, 43, 67, 1);
+	line-height: 21px;
+}
+
+.link-show {}
+
+.link-show2 {}
+
+.link-show3 {}
+
+@media (max-width: 800px) {
+	.header-div .trial {
+		width: 125px;
+		height: 36px;
+	}
+}
+
+@media (max-width: 650px) {
+	.link-show {
+		display: none !important;
+	}
+
+	.header-div {
+		padding: 10px 0;
+	}
+
+	.header-div .trial {
+		width: 100px;
+		height: 29px;
+	}
+}
+
+@media (max-width: 560px) {
+	.link-show2 {
+		display: none !important;
+	}
+
+	.header-div {
+		padding: 5px 0;
+	}
+
+	.header-div .trial {
+		width: 100px;
+		height: 29px;
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 480px) {
+	.link-show3 {
+		display: none !important;
+	}
+
+	.header-product>li {
+		margin: 0;
+	}
+
+	.header-div .trial {
+		width: 80px;
+		height: 29px;
+		font-size: 14px;
+		line-height: 18px;
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 400px) {
+	.header-div {
+		padding: 3px 0;
+	}
+
+	.header-div .logo {
+		width: 100px;
+		min-width: 100px;
+		float: left;
+		margin-top: 10px;
+	}
+
+	.header-div .trial {
+		width: 80px;
+		height: 26px;
+		font-size: 14px;
+		line-height: 18px;
+		margin-left: 0;
+		margin-top: 3px;
+	}
+}
+
+/*header部分  end*/
+
+/*banner部分  begin*/
+.banner-div {
+	padding: 0 !important;
+}
+
+.item img {
+	max-width: 1440px;
+	max-height: 500px;
+	margin: 0 auto;
+}
+
+.banner-title {
+	height: 60px;
+	font-size: 45px;
+	font-family: MicrosoftYaHei-Bold;
+	font-weight: bold;
+	color: rgba(255, 255, 255, 1);
+	line-height: 60px;
+	margin-bottom: 2%;
+}
+
+.banner-subtitle {
+	height: 25px;
+	font-size: 19px;
+	font-family: MicrosoftYaHei;
+	color: rgba(255, 255, 255, 1);
+	line-height: 25px;
+	margin-bottom: 2%;
+}
+
+.banner-button {
+	width: 190px;
+	height: 54px;
+	background: linear-gradient(180deg, rgba(250, 225, 107, 1) 0%, rgba(243, 194, 60, 1) 100%);
+	border: 0;
+	border-radius: 4px;
+	margin-bottom: 8%;
+
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	font-weight: 500;
+	color: rgba(17, 17, 17, 1);
+}
+
+@media (max-width: 1000px) {
+	.carousel-indicators {
+		bottom: 1px;
+	}
+
+	.carousel-caption {
+		padding-bottom: 15px;
+	}
+
+	.banner-title {
+		height: 45px;
+		font-size: 35px;
+		line-height: 45px;
+		margin-bottom: 1%;
+	}
+
+	.banner-subtitle {
+		height: 20px;
+		font-size: 16px;
+		line-height: 20px;
+		margin-bottom: 3%;
+	}
+
+	.banner-button {
+		margin-bottom: 8%;
+		width: 180px;
+		height: 51px;
+	}
+}
+
+@media (max-width: 900px) {
+	.banner-title {
+		height: 45px;
+		font-size: 35px;
+		line-height: 45px;
+		margin-bottom: 1%;
+	}
+
+	.banner-subtitle {
+		height: 20px;
+		font-size: 16px;
+		line-height: 20px;
+		margin-bottom: 3%;
+	}
+
+	.banner-button {
+		margin-bottom: 3%;
+		width: 150px;
+		height: 43px;
+	}
+}
+
+@media (max-width: 800px) {
+	.banner-title {
+		height: 35px;
+		font-size: 28px;
+		line-height: 35px;
+		margin-bottom: 2px;
+	}
+
+	.banner-subtitle {
+		height: 20px;
+		font-size: 16px;
+		line-height: 20px;
+		margin-bottom: 2%;
+	}
+
+	.banner-button {
+		margin-bottom: 3%;
+		width: 120px;
+		height: 34px;
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 600px) {
+	.banner-title {
+		height: 30px;
+		font-size: 22px;
+		line-height: 30px;
+		margin-bottom: 2px;
+	}
+
+	.banner-subtitle {
+		height: 18px;
+		font-size: 14px;
+		line-height: 18px;
+		margin-bottom: 1%;
+	}
+
+	.banner-button {
+		margin-bottom: 1%;
+		width: 100px;
+		height: 28px;
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 490px) {
+	.banner-title {
+		height: 28px;
+		font-size: 18px;
+		line-height: 28px;
+		margin-bottom: 2px;
+	}
+
+	.banner-subtitle {
+		display: none;
+	}
+}
+
+@media (max-width: 400px) {
+	.banner-title {
+		height: 28px;
+		font-size: 18px;
+		line-height: 28px;
+		margin-bottom: 2px;
+	}
+
+	.banner-button {
+		margin-bottom: 0;
+		width: 100px;
+		height: 26px;
+		font-size: 13px;
+	}
+}
+
+
+
+/*banner部分  end*/
+
+/*product tab部分  begin*/
+.product-tab {
+	padding: 25px 5px;
+	text-align: center;
+	z-index: 999;
+}
+
+.product-tab>a.product-link {
+	font-size: 30px;
+	font-family: "microsoft yahei";
+	font-weight: 500;
+	color: rgba(155, 155, 155, 1) !important;
+	line-height: 42px;
+	padding: 15px 0px !important;
+	margin: 0 40px;
+	text-decoration: none;
+}
+
+.product-tab>a.active {
+	color: #0A4793 !important;
+	border-radius: 0 !important;
+	border-bottom: 4px solid #0A4793 !important;
+}
+
+.product-tab>a.product-link:hover,
+.product-tab>a.product-link:active {
+	text-decoration: none;
+	color: #0A4793 !important;
+	border-radius: 0 !important;
+	border-bottom: 4px solid #0A4793 !important;
+}
+
+@media (max-width: 992px) {
+	.product-tab>a.product-link {
+		font-size: 26px;
+		line-height: 35px;
+		padding: 10px 0px !important;
+		margin: 0 35px;
+	}
+}
+
+@media (max-width: 800px) {
+	.product-tab>a.product-link {
+		font-size: 26px;
+		line-height: 35px;
+		padding: 10px 0px !important;
+		margin: 0 30px;
+	}
+}
+
+@media (max-width: 650px) {
+	.product-tab>a.product-link {
+		font-size: 22px;
+		line-height: 32px;
+		padding: 10px 0px !important;
+		margin: 0 20px;
+	}
+}
+
+@media (max-width: 520px) {
+	.product-tab>a.product-link {
+		font-size: 18px;
+		line-height: 26px;
+		padding: 8px 0px !important;
+		margin: 0 12px;
+	}
+}
+
+@media (max-width: 400px) {
+	.product-tab>a.product-link {
+		font-size: 16px;
+		line-height: 24px;
+		padding: 5px 0px !important;
+		margin: 0 8px;
+	}
+}
+
+/*product tab部分  end*/
+
+/*product introduce部分  begin*/
+.introduce-div {
+	padding: 60px 5px 30px 5px;
+	text-align: center;
+}
+
+.introduce-div>.left {
+	float: left;
+
+	font-size: 82px;
+	font-family: "microsoft yahei";
+	color: rgba(204, 204, 204, 1);
+	line-height: 96px;
+}
+
+.introduce-div .title {
+	font-size: 43px;
+	font-family: "microsoft yahei";
+	font-weight: 500;
+	color: rgba(57, 57, 57, 1);
+	line-height: 61px;
+	padding: 15px 5px;
+}
+
+.introduce-div .subtitle {
+	font-size: 20px;
+	font-family: "microsoft yahei";
+	font-weight: 300;
+	color: rgba(57, 57, 57, 1);
+	line-height: 28px;
+	padding: 15px 5px;
+}
+
+.introduce-div>.right {
+	float: right;
+
+	font-size: 82px;
+	font-family: "microsoft yahei";
+	color: rgba(204, 204, 204, 1);
+	line-height: 96px;
+}
+
+@media (max-width: 640px) {
+	.introduce-div {
+		padding-top: 50px;
+	}
+
+	.introduce-div>.left {
+		font-size: 70px;
+		line-height: 92px;
+	}
+
+	.introduce-div>.right {
+		font-size: 70px;
+		line-height: 92px;
+	}
+
+	.introduce-div .title {
+		font-size: 40px;
+		line-height: 60px;
+		padding: 15px 5px;
+	}
+
+	.introduce-div .subtitle {
+		font-size: 18px;
+		line-height: 26px;
+		padding: 15px 5px;
+	}
+}
+
+@media (max-width: 570px) {
+	.introduce-div {
+		padding-top: 40px;
+	}
+
+	.introduce-div>.left {
+		font-size: 60px;
+		line-height: 88px;
+	}
+
+	.introduce-div>.right {
+		font-size: 60px;
+		line-height: 88px;
+	}
+
+	.introduce-div .title {
+		font-size: 36px;
+		line-height: 55px;
+		padding: 15px 3px;
+	}
+
+	.introduce-div .subtitle {
+		font-size: 16px;
+		line-height: 22px;
+		padding: 12px 3px;
+	}
+}
+
+@media (max-width: 510px) {
+	.introduce-div {
+		padding-top: 30px;
+	}
+
+	.introduce-div>.left {
+		font-size: 50px;
+		line-height: 68px;
+	}
+
+	.introduce-div>.right {
+		font-size: 50px;
+		line-height: 68px;
+	}
+
+
+	.introduce-div .title {
+		font-size: 30px;
+		line-height: 45px;
+		padding: 12px 2px;
+	}
+
+	.introduce-div .subtitle {
+		font-size: 15px;
+		line-height: 20px;
+		padding: 10px 3px;
+	}
+}
+
+@media (max-width: 440px) {
+	.introduce-div {
+		padding-top: 20px;
+	}
+
+	.introduce-div>.left {
+		font-size: 32px;
+		line-height: 34px;
+	}
+
+	.introduce-div>.right {
+		font-size: 32px;
+		line-height: 34px;
+	}
+
+
+	.introduce-div .title {
+		font-size: 28px;
+		line-height: 36px;
+		padding: 8px 0;
+	}
+}
+
+@media (max-width: 380px) {
+	.introduce-div {
+		padding-top: 18px;
+	}
+}
+
+/*product introduce部分  end*/
+
+/*product comment部分  end*/
+.comment-div {
+	max-width: 1440px;
+	max-height: 640px;
+	margin: 0 auto;
+	padding: 5% 5%;
+	text-align: center;
+	/* 标准语法 */
+	background: background: linear-gradient(125deg, transparent 15%, #F6F9FC 15%), linear-gradient(-55deg, transparent 15%, #F6F9FC 15%);
+	/* Firefox 3.6 to 15 */
+	background: -moz-linear-gradient(125deg, transparent 15%, #F6F9FC 15%), -moz-linear-gradient(-55deg, transparent 15%, #F6F9FC 15%);
+	/* Opera 11.1 to 12.0 */
+	background: -o-linear-gradient(125deg, transparent 15%, #F6F9FC 15%), -o-linear-gradient(-55deg, transparent 15%, #F6F9FC 15%);
+	/* Safari 5.1 to 6.0 */
+	background: -webkit-linear-gradient(125deg, transparent 15%, #F6F9FC 15%), -webkit-linear-gradient(-55deg, transparent 15%, #F6F9FC 15%);
+
+	background-position: bottom right, top left;
+	background-size: 55%, 55%;
+	background-repeat: no-repeat;
+}
+
+.comment-div>.left {
+	float: left;
+	width: 30%;
+	max-width: 423px;
+	padding: 30px;
+}
+
+.comment-div>.right {
+	float: right;
+	width: 30%;
+	max-width: 423px;
+	padding: 30px;
+}
+
+.comment-div>.center {
+	width: 30%;
+	max-width: 423px;
+	background: #02469B;
+	margin: 0 auto;
+	padding: 30px;
+
+	/* 标准语法 */
+	background: background: linear-gradient(125deg, transparent 10%, #02469B 10%);
+	/* Firefox 3.6 to 15 */
+	background: -moz-linear-gradient(125deg, transparent 10%, #02469B 10%);
+	/* Opera 11.1 to 12.0 */
+	background: -o-linear-gradient(125deg, transparent 10%, #02469B 10%);
+	/* Safari 5.1 to 6.0 */
+	background: -webkit-linear-gradient(125deg, transparent 10%, #02469B 10%);
+
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
+
+
+
+.comment-div .num {
+	font-size: 48px;
+	font-family: "microsoft yahei";
+	color: rgba(4, 33, 68, 1);
+	line-height: 56px;
+	text-align: left;
+	margin: 0 0 30px 10px;
+}
+
+.comment-div .title {
+	font-size: 30px;
+	font-family: "microsoft yahei";
+	color: rgba(4, 33, 68, 1);
+	line-height: 35px;
+	text-align: left;
+}
+
+.comment-div hr {
+	background: rgba(255, 255, 255, 1);
+}
+
+
+.comment-div .detail {
+	height: 115px;
+	font-size: 17px;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+	color: rgba(4, 33, 68, 1);
+	line-height: 24px;
+	text-align: left;
+	padding: 15px 3px 0 3px;
+	overflow: hidden;
+}
+
+.comment-div .user {
+	font-size: 22px;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+	color: rgba(4, 33, 68, 1);
+	line-height: 30px;
+	text-align: right;
+	padding-top: 25px;
+	margin-right: 40px;
+}
+
+.comment-div>.center>.w {
+	color: white !important;
+}
+
+.comment-show {}
+
+
+@media (max-width: 1020px) {
+	.comment-div .title {
+		font-size: 28px;
+		line-height: 35px;
+	}
+
+	.comment-div .user {
+		font-size: 20px;
+		line-height: 34px;
+		padding-top: 25px;
+		margin-right: 30px;
+	}
+}
+
+@media (max-width: 975px) {
+	.comment-div .title {
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+	.comment-div .user {
+		font-size: 18px;
+		line-height: 30px;
+		padding-top: 20px;
+		margin-right: 20px;
+	}
+}
+
+@media (max-width: 880px) {
+	.comment-div .title {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.comment-div .detail {
+		height: 115px;
+		font-size: 16px;
+		line-height: 23px;
+		padding: 0 3px 0 3px;
+		overflow: hidden;
+	}
+
+	.comment-div .user {
+		font-size: 16px;
+		line-height: 30px;
+		padding-top: 20px;
+		margin-right: 20px;
+	}
+}
+
+@media (max-width: 760px) {
+	.comment-div .num {
+		font-size: 36px;
+		line-height: 40px;
+		text-align: left;
+		margin: 0 0 10px 10px;
+	}
+
+	.comment-div .title {
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+	.comment-div .detail {
+		height: 115px;
+		font-size: 15px;
+		line-height: 22px;
+		padding: 8px 3px 0 3px;
+		overflow: hidden;
+	}
+
+	.comment-div .user {
+		font-size: 18px;
+		line-height: 30px;
+		padding-top: 20px;
+		margin-right: 30px;
+	}
+
+	.comment-show {
+		display: none;
+	}
+
+	.comment-div>.left {
+		width: 50%;
+	}
+
+	.comment-div>.center {
+		float: right;
+		width: 50%;
+	}
+}
+
+@media (max-width: 550px) {
+	.comment-div .title {
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.comment-div .detail {
+		height: 115px;
+		font-size: 15px;
+		line-height: 22px;
+		padding: 5px 2px 0 2px;
+		overflow: hidden;
+	}
+
+	.comment-div .user {
+		font-size: 16px;
+		line-height: 26px;
+		padding-top: 15px;
+		margin-right: 15px;
+	}
+
+	.comment-show {
+		display: none;
+	}
+
+	.comment-div>.left {
+		width: 50%;
+	}
+
+	.comment-div>.center {
+		float: right;
+		width: 50%;
+	}
+}
+
+@media (max-width: 450px) {
+	.comment-div .title {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.comment-div .detail {
+		height: 115px;
+		font-size: 15px;
+		line-height: 18px;
+		padding: 5px 2px 0 2px;
+		overflow: hidden;
+	}
+
+	.comment-div .user {
+		font-size: 15px;
+		line-height: 26px;
+		padding-top: 12px;
+		margin-right: 15px;
+	}
+
+	.comment-show {
+		display: none;
+	}
+
+	.comment-div>.left {
+		width: 50%;
+		padding: 15px;
+	}
+
+	.comment-div>.center {
+		float: right;
+		width: 50%;
+		padding: 15px;
+	}
+}
+
+@media (max-width: 415px) {
+	.comment-div .title {
+		font-size: 17px;
+		line-height: 20px;
+	}
+
+	.comment-div .detail {
+		height: 115px;
+		font-size: 15px;
+		line-height: 19px;
+		padding: 0 1px;
+		overflow: hidden;
+	}
+
+	.comment-div .user {
+		font-size: 15px;
+		line-height: 26px;
+		padding-top: 8px;
+		margin-right: 15px;
+	}
+
+	.comment-show {
+		display: none;
+	}
+
+	.comment-div {
+		padding: 5% 5%;
+	}
+
+	.comment-div>.left {
+		width: 50%;
+		padding: 15px;
+	}
+
+	.comment-div>.center {
+		float: right;
+		width: 50%;
+		padding: 15px;
+	}
+}
+
+/*product comment部分  end*/
+
+/*product legend部分  begin*/
+.legend-carousel {
+	padding: 10px 15px;
+	text-align: left;
+}
+
+.legend-carousel .left {
+	float: left;
+}
+
+.legend-carousel .right {
+	float: right;
+}
+
+.legend-carousel .item:nth-of-type(1) img {
+	float: right;
+	width: 706px;
+	height: 492px;
+}
+.legend-carousel .item:nth-of-type(1)  .carousel-caption {
+	float: left;
+}
+
+
+
+
+.legend-div {
+	padding: 50px 15px;
+	text-align: left;
+}
+
+.legend-div .left {
+	float: left;
+}
+
+.legend-div .right {
+	float: right;
+}
+
+.legend-div .img {
+	width: 60%;
+}
+
+.legend-div .word {
+	width: 38%;
+	padding-top: 40px;
+}
+
+.legend-div .item {
+	font-size: 30px;
+	font-family: "microsoft yahei";
+	font-weight: 500;
+	color: rgba(215, 219, 227, 1);
+	line-height: 48px;
+}
+
+.legend-div .title {
+	font-size: 28px;
+	font-family: "microsoft yahei";
+	font-weight: 500;
+	color: rgba(6, 16, 28, 1);
+	line-height: 52px;
+}
+
+.legend-div .subtitle {
+	font-size: 21px;
+	font-family: "microsoft yahei";
+	font-weight: 500;
+	color: rgba(83, 89, 98, 1);
+	line-height: 29px;
+	padding: 30px 0;
+}
+
+.legend-div .more {
+	width: 188px;
+	height: 48px;
+	background: rgba(0, 69, 156, 1);
+	border-radius: 4px;
+
+	font-size: 18px;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+	color: rgba(255, 255, 255, 1);
+	line-height: 28px;
+}
+
+@media (max-width: 1200px) {
+	.legend-div {
+		padding: 40px 10px;
+		text-align: left;
+	}
+
+	.legend-div .img {
+		width: 55%;
+	}
+
+	.legend-div .word {
+		width: 42%;
+		padding-top: 20px;
+	}
+
+	.legend-div .item {
+		font-size: 26px;
+		line-height: 46px;
+	}
+
+	.legend-div .title {
+		font-size: 26px;
+		line-height: 50px;
+	}
+
+	.legend-div .subtitle {
+		font-size: 18px;
+		line-height: 26px;
+		padding: 20px 0;
+	}
+
+	.legend-div .more {
+		width: 172px;
+		height: 44px;
+
+		font-size: 18px;
+		line-height: 28px;
+	}
+}
+
+@media (max-width: 992px) {
+	.legend-div .word {
+		width: 42%;
+		padding-top: 10px;
+	}
+
+	.legend-div .item {
+		font-size: 20px;
+		line-height: 34px;
+	}
+
+	.legend-div .title {
+		font-size: 20px;
+		line-height: 36px;
+	}
+
+	.legend-div .subtitle {
+		font-size: 16px;
+		line-height: 22px;
+		padding: 15px 0;
+	}
+
+	.legend-div .more {
+		width: 141px;
+		height: 36px;
+
+		font-size: 18px;
+		line-height: 28px;
+	}
+}
+
+@media (max-width: 768px) {
+	.legend-div .word {
+		width: 42%;
+		padding-top: 5px;
+	}
+
+	.legend-div .item {
+		font-size: 22px;
+		line-height: 32px;
+	}
+
+	.legend-div .title {
+		font-size: 24px;
+		line-height: 34px;
+	}
+
+	.legend-div .subtitle {
+		font-size: 18px;
+		line-height: 22px;
+		padding: 10px 0;
+	}
+
+	.legend-div .more {
+		width: 141px;
+		height: 36px;
+
+		font-size: 18px;
+		line-height: 28px;
+	}
+}
+
+@media (max-width: 688px) {
+	.legend-div {
+		padding: 30px 10px;
+		text-align: left;
+	}
+
+	.legend-div .word {
+		width: 42%;
+		padding-top: 5px;
+	}
+
+	.legend-div .item {
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.legend-div .title {
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.legend-div .subtitle {
+		font-size: 16px;
+		line-height: 20px;
+		padding: 5px 0;
+	}
+
+	.legend-div .more {
+		width: 125px;
+		height: 32px;
+
+		font-size: 16px;
+		line-height: 28px;
+	}
+}
+
+@media (max-width: 616px) {
+	.legend-div .word {
+		width: 42%;
+		padding-top: 5px;
+	}
+
+	.legend-div .item {
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	.legend-div .title {
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	.legend-div .subtitle {
+		font-size: 14px;
+		line-height: 22px;
+		padding: 1px;
+	}
+
+	.legend-div .more {
+		width: 125px;
+		height: 32px;
+
+		font-size: 16px;
+		line-height: 28px;
+	}
+}
+
+@media (max-width: 616px) {
+	.legend-div .word {
+		width: 42%;
+		padding-top: 0;
+	}
+
+	.legend-div .item {
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	.legend-div .title {
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	.legend-div .subtitle {
+		font-size: 14px;
+		line-height: 18px;
+		padding: 1px;
+	}
+
+	.legend-div .more {
+		width: 109px;
+		height: 28px;
+
+		font-size: 15px;
+		line-height: 26px;
+	}
+}
+
+@media (max-width: 480px) {
+	.legend-div {
+		padding: 20px 10px;
+		text-align: left;
+	}
+
+	.legend-div .img {
+		width: 50%;
+	}
+
+	.legend-div .word {
+		width: 48%;
+		padding-top: 0;
+	}
+
+	.legend-div .item {
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	.legend-div .title {
+		font-size: 15px;
+		line-height: 18px;
+	}
+
+	.legend-div .subtitle {
+		font-size: 13px;
+		line-height: 16px;
+		padding: 1px;
+	}
+
+	.legend-div .more {
+		width: 109px;
+		height: 28px;
+
+		font-size: 14px;
+		line-height: 24px;
+	}
+}
+
+@media (max-width: 436px) {
+	.legend-div .item {
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	.legend-div .title {
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	.legend-div .subtitle {
+		font-size: 12px;
+		line-height: 14px;
+		padding: 1px;
+	}
+
+	.legend-div .more {
+		width: 86px;
+		height: 22px;
+
+		font-size: 13px;
+		line-height: 20px;
+	}
+}
+
+@media (max-width: 400px) {
+	.legend-div {
+		padding: 20px 10px;
+		text-align: left;
+	}
+
+	.legend-div .img {
+		width: 55%;
+	}
+
+	.legend-div .word {
+		width: 43%;
+		padding-top: 0;
+	}
+
+	.legend-div .item {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.legend-div .title {
+		font-size: 17px;
+		line-height: 21px;
+	}
+
+	.legend-div .subtitle {
+		display: none;
+	}
+
+	.legend-div .more {
+		width: 109px;
+		height: 28px;
+		margin-top: 5px;
+
+		font-size: 14px;
+		line-height: 24px;
+	}
+}
+
+/*product legend部分  end*/
+
+/*product case部分  begin*/
+.case-div {
+	padding: 30px 10px;
+	text-align: center;
+}
+
+.case-div>.title {
+	font-size: 44px;
+	font-family: "microsoft yahei";
+	font-weight: 500;
+	color: rgba(32, 32, 32, 1);
+	line-height: 62px;
+}
+
+.case-div>.subtitle {
+	width: 60%;
+	margin: 20px auto;
+	font-size: 20px;
+	font-family: "microsoft yahei";
+	font-weight: 300;
+	color: rgba(81, 81, 81, 1);
+	line-height: 28px;
+}
+
+.case-div .case-left {
+	max-width: 31.5%;
+	float: left;
+}
+
+.case-div .case-right {
+	max-width: 31.5%;
+	float: right;
+}
+
+.case-div .case-center {
+	max-width: 31.5%;
+	max-height: 240px;
+	margin: 20px auto;
+}
+
+.case-div .case {
+	max-height: 240px;
+	background: rgba(9, 92, 229, 1);
+	border-radius: 4px;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+.case-div .project {
+	font-size: 22px;
+	font-family: "microsoft yahei";
+	font-weight: 300;
+	color: rgba(255, 255, 255, 1);
+	line-height: 30px;
+
+	min-width: 112px;
+	position: absolute;
+	padding: 91px 93.5px;
+}
+
+.case-div .detail {
+	max-height: 60px;
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	font-weight: 300;
+	color: rgba(81, 81, 81, 1);
+	line-height: 20px;
+	text-align: left !important;
+	padding: 2px;
+	overflow: hidden;
+}
+
+@media (max-width: 1200px) {
+	.case-div .project {
+		font-size: 22px;
+		line-height: 30px;
+
+		position: absolute;
+		padding: 70px 62px;
+	}
+}
+
+@media (max-width: 992px) {
+	.case-div>.subtitle {
+		width: 80%;
+	}
+
+	.case-div .project {
+		font-size: 18px;
+		line-height: 25px;
+
+		position: absolute;
+		padding: 52px 43.5px;
+	}
+}
+
+@media (max-width: 768px) {
+	.case-div .project {
+		font-size: 16px;
+		line-height: 20px;
+
+		position: absolute;
+		padding: 56px 46px;
+	}
+}
+
+@media (max-width: 710px) {
+	.case-div .project {
+		font-size: 16px;
+		line-height: 20px;
+
+		position: absolute;
+		padding: 50px 40px;
+	}
+}
+
+@media (max-width: 668px) {
+	.case-div>.subtitle {
+		width: 100%;
+	}
+
+	.case-div .project {
+		font-size: 15px;
+		line-height: 20px;
+
+		position: absolute;
+		padding: 40px 38px;
+	}
+
+	.case-div .detail {
+		font-size: 15px;
+		line-height: 20px;
+	}
+}
+
+@media (max-width: 640px) {
+	.case-div .project {
+		font-size: 15px;
+		line-height: 20px;
+
+		position: absolute;
+		padding: 34px 30px;
+	}
+}
+
+@media (max-width: 580px) {
+	.case-div .project {
+		font-size: 15px;
+		line-height: 20px;
+
+		position: absolute;
+		padding: 32px 23px;
+	}
+}
+
+@media (max-width: 540px) {
+	.case-div .project {
+		font-size: 15px;
+		line-height: 20px;
+
+		position: absolute;
+		padding: 30px 18px;
+	}
+}
+
+@media (max-width: 520px) {
+	.case-div>.title {
+		font-size: 36px;
+		line-height: 55px;
+	}
+
+	.case-div>.subtitle {
+		width: 100%;
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	.case-div .project {
+		font-size: 15px;
+		line-height: 20px;
+
+		position: absolute;
+		padding: 25px 14px;
+	}
+}
+
+@media (max-width: 490px) {
+	.case-div .project {
+		font-size: 14px;
+		line-height: 16px;
+
+		position: absolute;
+		padding: 28px 10px;
+	}
+}
+
+@media (max-width: 450px) {
+	.case-div .project {
+		font-size: 14px;
+		line-height: 16px;
+
+		position: absolute;
+		padding: 25px 8px;
+	}
+}
+
+@media (max-width: 420px) {
+	.case-div>.title {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	.case-div>.subtitle {
+		width: 90%;
+		font-size: 15px;
+		line-height: 16px;
+	}
+
+	.case-div .project {
+		font-size: 14px;
+		line-height: 16px;
+
+		position: absolute;
+		padding: 20px 5px;
+	}
+}
+
+@media (max-width: 390px) {
+	.case-div .project {
+		font-size: 14px;
+		line-height: 16px;
+
+		position: absolute;
+		padding: 20px 0;
+	}
+}
+
+/*product case部分  end*/
+
+/*product partner部分  begin*/
+.parter-div {
+	padding: 20px 10px;
+	text-align: center;
+}
+
+.parter-div>.title {
+	font-size: 44px;
+	font-family: "microsoft yahei";
+	font-weight: 500;
+	color: rgba(32, 32, 32, 1);
+	line-height: 62px;
+	margin-bottom: 20px;
+}
+
+.parter-div>.row-top {
+	margin-bottom: 5px;
+}
+
+.parter-div img {
+	width: 80%;
+	max-width: 400px;
+	height: auto;
+	max-height: 200px;
+	margin: 8px auto;
+	border-width: 1px;
+	border-style: dashed;
+	border-color: #080808;
+}
+
+@media (max-width: 768px) {
+	.parter-div {
+		padding: 10px 10px;
+	}
+
+	.parter-div>.title {
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 520px) {
+	.parter-div>.title {
+		font-size: 36px;
+		line-height: 55px;
+		margin-bottom: 20px;
+	}
+
+	.parter-div img {
+		width: 100%;
+		margin: 0;
+	}
+}
+
+@media (max-width: 420px) {
+	.parter-div>.title {
+		font-size: 28px;
+		line-height: 36px;
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 390px) {
+	.parter-div {
+		padding: 0 10px;
+	}
+
+	.parter-div>.title {
+		margin-bottom: 20px;
+	}
+}
+
+/*product partner部分  end*/
+
+/*idnex footer部分  begin*/
+.footer-div {
+	max-width: 1440px;
+	max-height: 786px;
+	background: rgba(24, 25, 38, 1);
+	margin-top: 60px;
+	padding-bottom: 20px;
+}
+
+.footer-div>.map {
+	width: 100%;
+	max-width: 1179px;
+	height: 242px;
+	border-radius: 4px;
+	margin: -50px auto 10px auto;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+.footer-div .lamp {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	border-radius: 4px;
+}
+
+.footer-div .addr {
+	background: #00469C;
+	border-radius: 6px;
+
+	font-size: 12px;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+	color: rgba(237, 237, 237, 1);
+	line-height: 17px;
+
+	float: right;
+	margin-top: -10px;
+	margin-right: 10px;
+	padding: 6px 10px;
+}
+
+.footer-div .foot-caption {
+	float: left;
+	width: 80%;
+	mix-height: 200px;
+	margin: 30px 10%;
+	text-align: center;
+}
+
+.footer-div .tel {
+	font-size: 31px;
+	font-family: "microsoft yahei";
+	font-weight: 500;
+	color: rgba(255, 255, 255, 1);
+	line-height: 44px;
+}
+
+.footer-div .word {
+	font-size: 20px;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+	color: rgba(235, 235, 235, 1);
+	line-height: 28px;
+	margin: 20px 0;
+}
+
+.footer-div button.message {
+	width: 190px;
+	height: 45px;
+	background: rgba(0, 69, 156, 1);
+	border-radius: 4px;
+	border: 0;
+
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+	color: rgba(255, 255, 255, 1);
+	line-height: 22px;
+}
+
+.footer-div>.foot-menu {
+	width: 100%;
+	max-width: 1179px;
+	max-height: 395px;
+	margin: 30px auto;
+
+	font-size: 20px;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+	color: rgba(242, 242, 242, 1);
+	line-height: 28px;
+}
+
+.footer-div>.foot-menu>.menus {
+	float: left;
+	width: 70%;
+}
+
+.footer-div>.foot-menu>.menus>.product {
+	float: left;
+	width: 20%;
+}
+
+.footer-div>.foot-menu>.menus>.line {
+	float: left;
+	width: 1px;
+	height: 178px;
+	background: rgba(216, 216, 216, 0.5);
+}
+
+.footer-div>.foot-menu>.menus>.company {
+	float: left;
+	width: 30%;
+	padding-left: 80px;
+}
+
+.footer-div>.foot-menu>.menus>div div:nth-child(1) {
+	margin-top: 30px;
+}
+
+.footer-div>.foot-menu>.menus>.link {
+	float: left;
+	width: 40%;
+	padding-left: 80px;
+}
+
+.footer-div>.foot-menu>.menus .menu-link {
+	padding: 5px;
+
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+	color: rgba(163, 163, 163, 1);
+	line-height: 20px;
+}
+
+.footer-div>.foot-menu>.menus a {
+	text-decoration: none;
+
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+	color: rgba(163, 163, 163, 1);
+	line-height: 20px;
+}
+
+.footer-div>.foot-menu>.menus a:hover,
+.footer-div>.foot-menu>.menus a:active {
+	text-decoration: none;
+	color: #337ab7;
+}
+
+
+
+.footer-div .foot-menu .mail-box {
+	float: right;
+	width: 30%;
+
+	font-size: 20px;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+	color: rgba(242, 242, 242, 1);
+	line-height: 28px;
+}
+
+.footer-div .foot-menu .mail-box #userMail {
+	width: 200px;
+	height: 46px;
+	border-radius: 6px;
+	border: 1px solid rgba(147, 147, 148, 1);
+	background: rgba(24, 25, 38, 1);
+
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+	color: rgba(158, 158, 159, 1);
+	line-height: 22px;
+}
+
+.footer-div .foot-menu .mail-box button.sendMail {
+	width: 80px;
+	height: 46px;
+	background: rgba(0, 70, 156, 1);
+	border-radius: 6px;
+	border: 0;
+
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+	color: rgba(242, 242, 242, 1);
+	line-height: 22px;
+}
+
+@media (max-width: 1100px) {
+	.footer-div>.foot-menu>.menus>.product {
+		width: 20%;
+	}
+
+	.footer-div>.foot-menu>.menus>.company {
+		width: 30%;
+		padding-left: 80px;
+	}
+
+	.footer-div>.foot-menu>.menus>.link {
+		width: 30%;
+		padding-left: 80px;
+	}
+
+	.footer-div .foot-menu .mail-box #userMail {
+		width: 200px;
+		height: 40px;
+		border-radius: 4px;
+
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	.footer-div .foot-menu .mail-box button.sendMail {
+		width: 70px;
+		height: 40px;
+		border-radius: 4px;
+		border: 0;
+	}
+}
+
+@media (max-width: 1050px) {
+	.footer-div>.foot-menu>.menus>.product {
+		width: 20%;
+	}
+
+	.footer-div>.foot-menu>.menus>.company {
+		width: 30%;
+		padding-left: 70px;
+	}
+
+	.footer-div>.foot-menu>.menus>.link {
+		width: 30%;
+		padding-left: 70px;
+	}
+}
+
+@media (max-width: 992px) {
+	.footer-div>.foot-menu>.menus>.product {
+		width: 25%;
+	}
+
+	.footer-div>.foot-menu>.menus>.company {
+		width: 30%;
+		padding-left: 60px;
+	}
+
+	.footer-div>.foot-menu>.menus>.link {
+		width: 30%;
+		padding-left: 60px;
+	}
+
+	.footer-div .foot-menu .mail-box #userMail {
+		width: 180px;
+		height: 40px;
+		border-radius: 4px;
+
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	.footer-div .foot-menu .mail-box button.sendMail {
+		width: 70px;
+		height: 40px;
+		border-radius: 4px;
+		border: 0;
+	}
+}
+
+@media (max-width: 900px) {
+	.footer-div>.foot-menu>.menus>.product {
+		width: 25%;
+	}
+
+	.footer-div>.foot-menu>.menus>.company {
+		width: 30%;
+		padding-left: 50px;
+	}
+
+	.footer-div>.foot-menu>.menus>.link {
+		width: 30%;
+		padding-left: 50px;
+	}
+
+	.footer-div .foot-menu .mail-box #userMail {
+		width: 160px;
+		height: 36px;
+		border-radius: 4px;
+
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	.footer-div .foot-menu .mail-box button.sendMail {
+		width: 60px;
+		height: 36px;
+		border-radius: 4px;
+		border: 0;
+	}
+}
+
+@media (max-width: 800px) {
+	.footer-div>.foot-menu>.menus>.product {
+		width: 25%;
+	}
+
+	.footer-div>.foot-menu>.menus>.company {
+		width: 30%;
+		padding-left: 40px;
+	}
+
+	.footer-div>.foot-menu>.menus>.link {
+		width: 30%;
+		padding-left: 40px;
+	}
+
+	.footer-div .foot-menu .mail-box #userMail {
+		width: 140px;
+		height: 36px;
+		border-radius: 4px;
+
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	.footer-div .foot-menu .mail-box button.sendMail {
+		width: 60px;
+		height: 36px;
+		border-radius: 4px;
+		border: 0;
+	}
+}
+
+@media (max-width: 736px) {
+	.footer-div>.foot-menu>.menus>.product {
+		width: 25%;
+	}
+
+	.footer-div>.foot-menu>.menus>.company {
+		width: 30%;
+		padding-left: 30px;
+	}
+
+	.footer-div>.foot-menu>.menus>.link {
+		width: 30%;
+		padding-left: 30px;
+	}
+
+	.footer-div .foot-menu .mail-box #userMail {
+		width: 100%;
+		height: 36px;
+		border-radius: 4px;
+
+		font-size: 16px;
+		line-height: 22px;
+	}
+
+	.footer-div .foot-menu .mail-box button.sendMail {
+		width: 100%;
+		height: 36px;
+		border-radius: 4px;
+		border: 0;
+	}
+}
+
+@media (max-width: 600px) {
+	.footer-div>.foot-menu>.menus>.product {
+		display: none;
+	}
+
+	.footer-div>.foot-menu>.menus>.company {
+		width: 30%;
+		padding-left: 20px;
+	}
+
+	.footer-div>.foot-menu>.menus>.link {
+		width: 30%;
+		padding-left: 20px;
+	}
+}
+
+@media (max-width: 480px) {
+	.footer-div .tel {
+		font-size: 26px;
+		line-height: 36px;
+	}
+
+	.footer-div .word {
+		font-size: 20px;
+		line-height: 30px;
+		margin: 10px 0;
+	}
+
+	.footer-div button.message {
+		width: 200px;
+		height: 50px;
+		border-radius: 4px;
+		border: 0;
+
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.footer-div>.foot-menu>.menus {
+		width: 50%;
+	}
+
+	.footer-div>.foot-menu>.mail-box {
+		width: 50%;
+	}
+
+	.footer-div>.foot-menu>.menus>.company {
+		width: 100%;
+		padding-left: 20px;
+	}
+
+	.footer-div>.foot-menu>.menus>.line {
+		display: none;
+	}
+
+	.footer-div>.foot-menu>.menus>.link {
+		display: none;
+	}
+}
+
+
+/*idnex footer部分  end*/
+
+
+.bottom-div {
+	max-width: 1440px;
+	height: 56px;
+	background: rgba(47, 47, 56, 1);
+
+	font-size: 14px;
+	font-family: "microsoft yahei";
+	font-weight: 400;
+	color: rgba(158, 158, 159, 1);
+	line-height: 20px;
+
+	padding: 18px 5%;
+}
+
+@media (max-width: 700px) {
+	.bottom-div {
+		padding: 8px 5%;
+	}
+}

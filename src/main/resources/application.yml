@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /product
+    jsp:
+      init-parameters:
+        development: true
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/kg?characterEncoding=utf-8&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+
+mybatis:
+  type-aliases-package: com.taiji.entity
+  mapper-locations: classpath:com/taiji/mapper/*Mapper.xml

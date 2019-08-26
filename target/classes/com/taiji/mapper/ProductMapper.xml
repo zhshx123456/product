@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.taiji.dao.ProductDao">
+    <select id="queryAllProduct" resultType="com.taiji.entity.Product">
+        select product_number as productNumber,product_name as productName from product;
+    </select>
+    <select id="queryMessageByProductNumber" resultType="com.taiji.entity.Product">
+        select first_title as firstTitle,second_title as secondTitle from product where product_number=#{productNumber};
+    </select>
+
+</mapper>
